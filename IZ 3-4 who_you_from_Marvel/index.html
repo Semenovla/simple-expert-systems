@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="shortcut icon" href="./fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id = "container">
+    <div class="start__wrapper" id = "start">
+        <input type="button" id="start" class="start" value="start" onclick="start()">
+    </div>
+
+    <div id = "q1_wrapper">
+        Какого ты пола? <br>
+        <input type="button" id="start" class="start" value="Мужской" onclick="man()">
+        <input type="button" id="start" class="start" value="Женский" onclick="woman()">
+    </div>
+
+    <div id = "q2_man_wrapper">
+        Хотел бы ты уметь летать? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q2_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q2_man_no()">
+    </div>
+
+    <div id = "q3_man_wrapper">
+        Хотел бы ты иметь возможность становиться невидимым? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q3_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q3_man_no()">
+    </div>
+
+    <div id = "q4_man_wrapper">
+        Вы хитрый человек? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q4_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q4_man_no()">
+    </div>
+
+    <div id = "q5_man_wrapper">
+        Хотели бы вы быть секретным агентом? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q5_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q5_man_no()">
+    </div>
+
+    <div id = "q6_man_wrapper">
+        Хотели бы вы иметь сверхспособности? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q6_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q6_man_no()">
+    </div>
+
+    <div id = "q7_man_wrapper">
+        Любите ли вы енотов? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q7_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q7_man_no()">
+    </div>
+
+    <div id = "q8_man_wrapper">
+        Хотели бы вы быть волшебником? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q8_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q8_man_no()">
+    </div>
+
+    <div id = "q9_man_wrapper">
+        Хотели бы вы иметь супер-костюм? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q9_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q9_man_no()">
+    </div>
+
+    <div id = "q10_man_wrapper">
+        Вы можете назвать себя творческим изобретательным человеком? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q10_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q10_man_no()">
+    </div>
+
+    <div id = "q11_man_wrapper">
+        Хотели бы вы стать ученым? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q11_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q11_man_no()">
+    </div>
+
+    <div id = "q12_man_wrapper">
+        Хотели бы вы уметь общаться с животными? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q12_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q12_man_no()">
+    </div>
+
+    <div id = "q13_man_wrapper">
+        Интересна ли вам военная тематика? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q13_man_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q13_man_no()"> <!--человек паук-->
+    </div>
+
+    <div id = "q14_man_wrapper">
+        Любите ли вы физику? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q14_man_yes()"><!--черная пантера-->
+        <input type="button" id="start" class="start" value="Нет" onclick="q14_man_no()"><!--зимний солдат-->
+    </div>
+
+            <!-- ЖЕНЩИНЫ ВОПРОСЫ -->
+
+    <div id = "q2_woman_wrapper">
+        Хотели бы вы быть шпионом? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q2_woman_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q2_woman_no()">
+    </div>
+
+    <div id = "q3_woman_wrapper">
+        Хотели бы вы быть мастером боевых искусств? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q3_woman_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q3_woman_no()">
+    </div>
+
+    <div id = "q4_woman_wrapper">
+        Хотели бы вы уметь летать? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q4_woman_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q4_woman_no()">
+    </div>
+
+    <div id = "q5_woman_wrapper">
+        Хотели бы вы уметь уменьшаться? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q5_woman_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q5_woman_no()">
+    </div>
+
+    <div id = "q6_woman_wrapper">
+        Хотели бы вы быть мастером боевых искусств? <br>
+        <input type="button" id="start" class="start" value="Да" onclick="q6_woman_yes()">
+        <input type="button" id="start" class="start" value="Нет" onclick="q6_woman_no()">
+    </div>
+
+
+
+    <div id = "tanos">
+        Ты Танос
+    </div>
+
+    <div id = "tor">
+        Ты Тор
+    </div>
+
+    <div id = "loki">
+        Ты Локи
+    </div>
+
+    <div id = "cap_america">
+        Ты Капитан Америка
+    </div>
+
+    <div id = "kolson">
+        Ты Агент Колсон
+    </div>
+
+    <div id = "raketa">
+        Ты Ракета
+    </div>
+
+    <div id = "strange">
+        Ты Доктор Стрэндж
+    </div>
+    
+    <div id = "lord">
+        Ты Звездный Лорд
+    </div>
+
+    <div id = "iron_man">
+        Ты Железный человек
+    </div>
+
+    <div id = "halk">
+        Ты Халк
+    </div>
+
+    <div id = "muravey">
+        Ты Человек-муравей
+    </div>
+
+    <div id = "spider">
+        Ты Человек-паук
+    </div>
+
+    <div id = "pantera">
+        Ты Черная Пантера
+    </div>
+
+    <div id = "winter">
+        Ты Зимний солдат
+    </div>
+
+    <div id = "vdova">
+        Ты Черная Вдова
+    </div>
+
+    <div id = "peggy">
+        Ты Пегги Картер
+    </div>
+
+    <div id = "osa">
+        Ты Оса
+    </div>
+
+    <div id = "cap_marvel">
+        Ты Капитан Марвел
+    </div>
+
+    <div id = "elektra">
+        Ты Электра
+    </div>
+
+    <div id = "gamora">
+        Ты Гамора
+    </div>
+
+</div>
+    <script>
+        function start(){
+            document.getElementById("q1_wrapper").style.display = "block";
+            document.getElementById("start").style.display = "none";
+        }
+
+        function woman(){
+            document.getElementById("q1_wrapper").style.display = "none";
+            document.getElementById("q2_woman_wrapper").style.display = "block";
+        }
+
+        function man(){
+            document.getElementById("q1_wrapper").style.display = "none";
+            document.getElementById("q2_man_wrapper").style.display = "block";
+        }
+        //функции для второго вопроса про мужиков
+        function q2_man_yes(){
+            document.getElementById("q2_man_wrapper").style.display = "none";
+            document.getElementById("q3_man_wrapper").style.display = "block";
+        }
+        function q2_man_no(){
+            document.getElementById("q2_man_wrapper").style.display = "none";
+            document.getElementById("q4_man_wrapper").style.display = "block";
+        }
+        //функции для третьего вопроса про мужиков
+        function q3_man_yes(){
+            document.getElementById("q3_man_wrapper").style.display = "none";
+            document.getElementById("tanos").style.display = "block";
+        }
+        function q3_man_no(){
+            document.getElementById("q3_man_wrapper").style.display = "none";
+            document.getElementById("tor").style.display = "block";
+        }
+        //функции для четвертого вопроса про мужиков
+        function q4_man_yes(){
+            document.getElementById("q4_man_wrapper").style.display = "none";
+            document.getElementById("loki").style.display = "block";
+        }
+        function q4_man_no(){
+            document.getElementById("q4_man_wrapper").style.display = "none";
+            document.getElementById("q5_man_wrapper").style.display = "block";
+        }
+        //функции для пятого вопроса про мужиков
+        function q5_man_yes(){
+            document.getElementById("q5_man_wrapper").style.display = "none";
+            document.getElementById("q6_man_wrapper").style.display = "block";
+        }
+        function q5_man_no(){
+            document.getElementById("q5_man_wrapper").style.display = "none";
+            document.getElementById("q7_man_wrapper").style.display = "block";
+        }
+        //функции для шестого вопроса про мужиков
+        function q6_man_yes(){
+            document.getElementById("q6_man_wrapper").style.display = "none";
+            document.getElementById("cap_america").style.display = "block";
+        }
+        function q6_man_no(){
+            document.getElementById("q6_man_wrapper").style.display = "none";
+            document.getElementById("kolson").style.display = "block";
+        }
+        //функции для седьмого вопроса про мужиков
+        function q7_man_yes(){
+            document.getElementById("q7_man_wrapper").style.display = "none";
+            document.getElementById("raketa").style.display = "block";
+        }
+        function q7_man_no(){
+            document.getElementById("q7_man_wrapper").style.display = "none";
+            document.getElementById("q8_man_wrapper").style.display = "block";
+        }
+
+        //функции для восьмого вопроса про мужиков
+        function q8_man_yes(){
+            document.getElementById("q8_man_wrapper").style.display = "none";
+            document.getElementById("strange").style.display = "block";
+        }
+        function q8_man_no(){
+            document.getElementById("q8_man_wrapper").style.display = "none";
+            document.getElementById("q9_man_wrapper").style.display = "block";
+        }
+
+        //функции для девятого вопроса про мужиков
+        function q9_man_yes(){
+            document.getElementById("q9_man_wrapper").style.display = "none";
+            document.getElementById("q10_man_wrapper").style.display = "block";
+        }
+        function q9_man_no(){
+            document.getElementById("q9_man_wrapper").style.display = "none";
+            document.getElementById("q11_man_wrapper").style.display = "block";
+        }
+
+        //функции для десятого вопроса про мужиков
+        function q10_man_yes(){
+            document.getElementById("q10_man_wrapper").style.display = "none";
+            document.getElementById("iron_man").style.display = "block";
+        }
+        function q10_man_no(){
+            document.getElementById("q10_man_wrapper").style.display = "none";
+            document.getElementById("lord").style.display = "block";
+        }
+
+        //функции для 11 вопроса про мужиков
+        function q11_man_yes(){
+            document.getElementById("q11_man_wrapper").style.display = "none";
+            document.getElementById("halk").style.display = "block";
+        }
+        function q11_man_no(){
+            document.getElementById("q11_man_wrapper").style.display = "none";
+            document.getElementById("q12_man_wrapper").style.display = "block";
+        }
+
+        //функции для 12 вопроса про мужиков
+        function q12_man_yes(){
+            document.getElementById("q12_man_wrapper").style.display = "none";
+            document.getElementById("muravey").style.display = "block";
+        }
+        function q12_man_no(){
+            document.getElementById("q12_man_wrapper").style.display = "none";
+            document.getElementById("q13_man_wrapper").style.display = "block";
+        }
+
+        //функции для 13 вопроса про мужиков
+        function q13_man_yes(){
+            document.getElementById("q13_man_wrapper").style.display = "none";
+            document.getElementById("q14_man_wrapper").style.display = "block";
+        }
+        function q13_man_no(){
+            document.getElementById("q13_man_wrapper").style.display = "none";
+            document.getElementById("spider").style.display = "block";
+        }
+
+        //функции для 14 вопроса про мужиков
+        function q14_man_yes(){
+            document.getElementById("q14_man_wrapper").style.display = "none";
+            document.getElementById("pantera").style.display = "block";
+        }
+        function q14_man_no(){
+            document.getElementById("q14_man_wrapper").style.display = "none";
+            document.getElementById("winter").style.display = "block";
+        }
+
+
+        ///////////////////ЖЕНЩИНЫ
+        
+        //функции для второго вопроса про ж
+        function q2_woman_yes(){
+            document.getElementById("q2_woman_wrapper").style.display = "none";
+            document.getElementById("q3_woman_wrapper").style.display = "block";
+        }
+        function q2_woman_no(){
+            document.getElementById("q2_woman_wrapper").style.display = "none";
+            document.getElementById("q4_woman_wrapper").style.display = "block";
+        }
+        //функции для третьего вопроса про ж
+        function q3_woman_yes(){
+            document.getElementById("q3_woman_wrapper").style.display = "none";
+            document.getElementById("vdova").style.display = "block";
+        }
+        function q3_woman_no(){
+            document.getElementById("q3_woman_wrapper").style.display = "none";
+            document.getElementById("peggy").style.display = "block";
+        }
+        //функции для четвертого вопроса про ж
+        function q4_woman_yes(){
+            document.getElementById("q4_woman_wrapper").style.display = "none";
+            document.getElementById("q5_woman_wrapper").style.display = "block";
+        }
+        function q4_woman_no(){
+            document.getElementById("q4_woman_wrapper").style.display = "none";
+            document.getElementById("q6_woman_wrapper").style.display = "block";
+        }
+        //функции для пятого вопроса про ж
+        function q5_woman_yes(){
+            document.getElementById("q5_woman_wrapper").style.display = "none";
+            document.getElementById("osa").style.display = "block";
+        }
+        function q5_woman_no(){
+            document.getElementById("q5_woman_wrapper").style.display = "none";
+            document.getElementById("cap_marvel").style.display = "block";
+        }
+        //функции для шестого вопроса про ж
+        function q6_woman_yes(){
+            document.getElementById("q6_woman_wrapper").style.display = "none";
+            document.getElementById("elektra").style.display = "block";
+        }
+        function q6_woman_no(){
+            document.getElementById("q6_woman_wrapper").style.display = "none";
+            document.getElementById("gamora").style.display = "block";
+        }
+    </script>
+</body>
+</html>
